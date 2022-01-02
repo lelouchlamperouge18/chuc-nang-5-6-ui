@@ -10,7 +10,7 @@ const AddTestCase = () => {
             <label for="tc_name">Name:</label> <br></br>
             <input type="text" id="tc_name" name="tc_name"></input><br></br>
             <label for="tc_input">Input:</label><br></br>
-            <input type="text" id="tc_input" name="tc_input"></input><br></br>
+            <textarea type="text" id="tc_input" name="tc_input" rows="4" cols="50"></textarea><br></br>
           </div>
           <div className="col-span-1">
             <div className="grid grid-cols-2">
@@ -24,7 +24,7 @@ const AddTestCase = () => {
               </div>
             </div>
             <label for="tc_output">Expect Output:</label><br></br>
-            <input type="text" id="tc_output" name="tc_output"></input><br></br>
+            <textarea type="text" id="tc_output" name="tc_output" rows="4" cols="50"></textarea><br></br>
           </div>
           <div className="col-span-1 pt-3 pb-3">
             <input type="checkbox" id="tc_checkbox" name="tc_checkbox" value="Sample test case"></input>
