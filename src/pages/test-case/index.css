@@ -1,0 +1,52 @@
+.TestCase {
+  margin: 0.5rem 15%;
+}
+
+.TestCase__title {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+.ComboBox {
+  padding: 10px 0px;
+}
+.TestCase__Button {
+  text-transform: none !important;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 15px 0px;
+}
+
+.Button__AddTestCase {
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+  background-color: green;
+}
+
+/* =============================================================================
+   Responsive Table CSS
+   ========================================================================== */
+   
+.dataTable {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.dataTable td, .dataTable th {
+  padding: .625em;
+  line-height: 1.5em;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+ .dataTable th {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.14);
+  border-bottom: 1px solid #aaa;
+}
+
+.dataTable tr:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.07);
+}
