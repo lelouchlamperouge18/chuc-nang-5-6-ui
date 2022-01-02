@@ -7,24 +7,24 @@ const AddTestCase = () => {
       <form>
         <div className="grid grid-cols-2">
           <div className="col-span-1">
-            <label for="fname">Name:</label> <br></br>
-            <input type="text" id="tc_name" name="fname"></input><br></br>
-            <label for="lname">Input:</label><br></br>
-            <input type="text" id="tc_input" name="lname"></input><br></br>
+            <label for="tc_name">Name:</label> <br></br>
+            <input type="text" id="tc_name" name="tc_name"></input><br></br>
+            <label for="tc_input">Input:</label><br></br>
+            <input type="text" id="tc_input" name="tc_input"></input><br></br>
           </div>
           <div className="col-span-1">
             <div className="grid grid-cols-2">
               <div className="col-span-1">
-                <label for="lname">Difficulty:</label><br></br>
-                <input type="text" id="tc_difficulty" name="lname"></input><br></br>
+                <label for="tc_difficulty">Difficulty:</label><br></br>
+                <input type="text" id="tc_difficulty" name="tc_difficulty"></input><br></br>
               </div>
               <div className="col-span-1">
-                <label for="lname">Score:</label><br></br>
-                <input type="text" id="tc_score" name="lname"></input><br></br>
+                <label for="tc_score">Score:</label><br></br>
+                <input type="text" id="tc_score" name="tc_score"></input><br></br>
               </div>
             </div>
-            <label for="lname">Expect Output:</label><br></br>
-            <input type="text" id="tc_output" name="lname"></input><br></br>
+            <label for="tc_output">Expect Output:</label><br></br>
+            <input type="text" id="tc_output" name="tc_output"></input><br></br>
           </div>
           <div className="col-span-1 pt-3 pb-3">
             <input type="checkbox" id="tc_checkbox" name="tc_checkbox" value="Sample test case"></input>
